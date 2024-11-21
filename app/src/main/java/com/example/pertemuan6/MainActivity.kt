@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
             kehadiranSpinner.onItemSelectedListener =
                 object : AdapterView.OnItemSelectedListener {
                     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                        Toast.makeText(this@MainActivity, "Ini coba push new branch", Toast.LENGTH_SHORT).show()
 
                     }
 
